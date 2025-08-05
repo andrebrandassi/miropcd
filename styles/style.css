@@ -1,10 +1,10 @@
 /* Header */
 
 header{
-    background: linear-gradient(#00000086, #0000004e), url(../img/eng-mec-header.jpg);
+    background: linear-gradient(#00000086, #0000004e), url(../img/imagem-2.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
 }
 
 .fix.fixed {
@@ -21,7 +21,7 @@ header{
 }
 
 .fix .logo img{
-    width: 180px;
+    width: 120px;
 }
 
 .menu-toggle{
@@ -74,7 +74,7 @@ header{
 }
 
 .nav-list li{
-    margin-top: 10px;
+    margin-top: 0px;
     border-bottom: 2px solid var(--branco);
 }
 
@@ -127,9 +127,8 @@ header{
 
 #sobre{
     padding: 40px;
-    background-image: linear-gradient(to right, #cfcfcd, var(--branco));
+    background-image: linear-gradient(to right, #efefef2f, var(--branco));
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.136);
-
 }
 
 #sobre .titulo{
@@ -161,6 +160,7 @@ header{
     line-height: 25px;
     font-size: 1.1rem;
     font-family: 'Roboto';
+    color: gray;
 }
 
 /*serviços*/
@@ -180,7 +180,7 @@ header{
 }
 
 .servico{
-    max-width: 400px;
+    width: 400px;
     height: 320px;
     margin: 0 auto 5px auto ;
     background-color: var(--branco);
@@ -190,17 +190,32 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+}
+
+.servico p{
+    color: gray;
+    text-align: left;
 }
 
 .servico a img{width: 25%;}
 
 .servico h2  a {
     color: var(--black);
-    font-size: 2.2rem;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.servico h2{
+    text-align: left;
 }
 
 .servico h3 a{
     color: var(--secundaria);
+}
+
+.servico h3{
+    text-align: left;
 }
 
 /* Localização */

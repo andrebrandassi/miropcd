@@ -1,10 +1,10 @@
 /* Estilos Globais */
 
 :root{
-    --primaria: #004731;
-    --secundaria:#40A165 ;
-    --terciaria: #566D5F;
-    --quarta: #B1E0C3;
+    --primaria: #004B96;
+    --secundaria: #0071E3 ;
+    --terciaria:  #003E7D;
+    --quarta:#00254A;
     --branco: #fff;
     --preto: #000;
     --cinza: gray;
@@ -15,6 +15,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a{
+    color: white;
 }
 
 body{font-family: "Yantramanav", sans-serif;}
@@ -29,7 +33,7 @@ button{cursor: pointer;border: none;}
 
 #contato{
     padding: 40px;
-    background: linear-gradient(#000000d2, #000000c3), url(../img/Engenharia-Mecanica.jpg);
+    background: linear-gradient(#000000d2, #000000c3), url(../img/imagem-4.webp);
   background-position: center;
   background-size: cover;
 }

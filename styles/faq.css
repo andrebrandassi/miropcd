@@ -1,7 +1,7 @@
 /* Header */
 
 header{
-    background: linear-gradient(#00000086, #0000004e), url(../img/eng-mec-header.jpg);
+    background: linear-gradient(#00000086, #0000004e), url(../img/imagem-3.jpg);
   background-position: center;
   background-size: cover;
   height: 80vh;
@@ -116,12 +116,13 @@ header{
 }
 
 .div-faq{
-    width: 100%;
+    width: 100%;  
+    margin: 8px;
     
 }
 
 .faq-btn{
-    font-family: 'Heebo';
+    font-family: 'Raleway';
     font-size: .8rem;
     font-weight: 700;
     display: flex;
@@ -146,9 +147,10 @@ header{
 
 .conteudo{
     font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--terciaria);
+    font-weight: 400;
+    color: var(--cinza);
     border: 1px solid var(--light);
+    border-radius: 0 0 4px 4px;
 }
 
 .escondido {

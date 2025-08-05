@@ -3,6 +3,10 @@
 
 @media only screen and (min-width: 660px) {
 
+        header{
+            height: 100vh;
+        }
+
    
     .fix{
         display: flex;
@@ -13,7 +17,7 @@
     }
 
     .fix .logo img{
-        width: 150px;
+        width: 130px;
     }
 
     .menu-toggle {
