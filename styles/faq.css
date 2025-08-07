@@ -80,7 +80,7 @@ header{
     text-align: left;
     opacity: 1;
   height: auto;
-  transition: opacity 0.5s ease, height 0.5s ease;
+  /* transition: opacity 0.5s ease, height 0.5s ease; */
 }
 }
 
@@ -157,12 +157,12 @@ header{
     opacity: 0;
     height: 0;
     overflow: hidden;
-    transition: opacity 2s ease, height 3s ease;
+    transition: opacity 0.2s ease, height 0.3s ea
   }
   
   .visivel {
     opacity: 1;
     height: auto;
-    transition: opacity 2s ease, height 3s ease;
+    transition: opacity 0.2s ease, height 0.3s ease;
     padding: 10px;
   }
